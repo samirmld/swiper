@@ -1,0 +1,69 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+body {
+  background-color: rgb(42, 39, 39);
+}
+.title {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+.title i {
+  font-size: 34px;
+  color: whitesmoke;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-right: 450px;
+}
+.image img {
+  height: 400px;
+  width: 400px;
+  border-radius: 30px;
+  border: 2px solid purple;
+  box-shadow: 3px 0px 9px 2px whitesmoke;
+}
+.cart {
+  height: 250px;
+  width: 450px;
+  border-radius: 25px;
+  border: 2px solid whitesmoke;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  box-shadow: 3px 0px 9px 2px whitesmoke;
+  backdrop-filter: blur(50px);
+  padding: 16px;
+  left: 550px;
+  color: aliceblue;
+}
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px !important;
+}
